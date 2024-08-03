@@ -64,6 +64,7 @@ build/
 *.log
 *.pyc
 *.swp
+.env
 .DS_Store
 .atom/
 .buildlog/
@@ -107,3 +108,4 @@ app.*.map.json
 /ios
 /macos
 /linux
+/windows
