@@ -4,7 +4,7 @@ Projeto de Aplicativo para Organização de Doações em Situações de Crise
 
 ## Desenvolvedores
 
-[Arian Wesley](https://github.com/Navelogic)
+[Arian Wesley](https://github.com/Navelogic)  
 [Wagner S Chittó](https://github.com/Treorai)
 
 ## Tecnologias
@@ -120,3 +120,15 @@ Classificação de doação sob sugestão de voluntários que experienciaram o p
         - Sabão para roupa
         - Amaciante para roupa
         - Adicionais [Desengordurante, saponáceo, limpa-vidros, etc]
+
+    - **Produtos para Bebês**
+        - Fraldas (`Tamanho`)
+        - Bico
+        - Mamadeira
+        - Fórmula Infantil
+    
+    - **Pets**
+        - Ração Gato
+        - Ração Cão
+        - Acessório
+        
