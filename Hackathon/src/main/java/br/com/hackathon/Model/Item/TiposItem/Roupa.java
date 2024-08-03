@@ -17,5 +17,4 @@ public class Roupa extends Item {
     private String material;
     private String observacao;
     private String categoria;
-    private String subcategoria;
 }

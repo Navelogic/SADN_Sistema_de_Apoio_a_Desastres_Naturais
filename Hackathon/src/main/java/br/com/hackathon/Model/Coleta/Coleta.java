@@ -31,6 +31,4 @@ public class Coleta {
 
     @OneToMany(mappedBy = "coleta", cascade = CascadeType.ALL, orphanRemoval = true)
     private Set<Doacao> doacoes = new HashSet<>();
-
-
 }
