@@ -15,39 +15,41 @@ class PontosColetaPage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const Text(
-                  'Quero ser um ponto de coleta',
-                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                  'Quer se registrar como um ponto de coleta?',
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                 ),
-                const SizedBox(height: 10),
+                const SizedBox(height: 6),
                 const Text(
-                  'Para se anunciar como ponto de coleta para doações, clique no botão abaixo e insira as informações do seu estabelecimento:',
-                  style: TextStyle(fontSize: 16),
+                  'Se você possui um estabelecimento comercial e quer colaborar, pode colocar no mapa abaixo sua localização. Seu estabelecimento vai aparecer no mapa para todos doadores próximos. \nPara se anunciar como ponto de coleta para doações, clique no botão abaixo e insira as informações do seu estabelecimento.',
+                  style: TextStyle(fontSize: 13),
                 ),
                 const SizedBox(height: 10),
                 Center(
                   child: ElevatedButton(
                     onPressed: () {
-                      // to-do: GOTO DIST-FORM
+                      /// TO-DO:
+                      /// Vai para um formulário onde o estabelecimento coloca seu endereço no mapa.
+                      /// Este endereço vira um marker no mapa e fica visível para todos nesta página.
                     },
                     child: const Text('Quero ser um ponto de coleta'),
                   ),
                 ),
-                const SizedBox(height: 30),
+                const SizedBox(height: 20),
                 const Text(
                   'Pontos de Coleta perto de mim:',
-                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)
                 ),
                 const SizedBox(height: 10),
             
-                // map widget
                 const SizedBox(
-                  height: 300, // Ajuste a altura conforme necessário
+                  height: 300,
                   child: GoogleMap(
                     initialCameraPosition: CameraPosition(
-                      target: LatLng(-23.550520, -46.633308), // Exemplo: São Paulo, Brasil
+                      target: LatLng(-23.550520, -46.633308),
+                      /// TO-DO:
+                      /// Montar um getter da localização atual do usuário do app.
                       zoom: 12,
                     ),
-                    // Aqui você pode usar a chave da API carregada das variáveis de ambiente, se necessário
                   ),
                 ),
             

@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'to-do: titulo',
+      title: 'to-do: title',
       theme: ThemeData(
         colorSchemeSeed: const Color.fromARGB(255, 11, 63, 105),
       ),
@@ -42,6 +42,12 @@ class _MyHomePageState extends State<MyHomePage> {
     CentroDistribuicaoPage(),
   ];
 
+  static const List<String> _titles = [
+    'Doação',
+    'Pontos de Coleta',
+    'Centro de Distribuição',
+  ];
+
   void _onItemTapped(int index) {
     setState(() {
       _selectedIndex = index;
@@ -53,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text('to-do: appbar label'),
+        title: Text(_titles[_selectedIndex]),
         elevation: 10,
       ),
       body: Center(

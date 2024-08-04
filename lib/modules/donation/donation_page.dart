@@ -14,18 +14,13 @@ class DoacaoPage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const Text(
-                  'Introdução',
-                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-                ),
-                const SizedBox(height: 10),
-                const Text(
                   'Somos profundamente gratos pela sua doação! As vítimas necessitam imensamente do seu apoio. Utilizando nosso app, além de ajudar as vítimas, sua contribuição também auxilia os voluntários dedicados que estão trabalhando incansavelmente para ajudar todos os envolvidos.',
                   style: TextStyle(fontSize: 13),
                 ),
                 const SizedBox(height: 10),
                 const Text(
                   'Como utilizar este app ajuda os voluntários?',
-                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)
+                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)
                 ),
                 const SizedBox(height: 10),
                 const Text(
@@ -40,7 +35,9 @@ class DoacaoPage extends StatelessWidget {
                 Center(
                   child: ElevatedButton(
                     onPressed: () {
-                      // to-do: GOTO FORM
+                      /// TO-DO:
+                      /// Vai para uma página onde o doador completa informações sobre sua doação.
+                      /// As informações classifiam a doação e geram um QR-Code de um JSON que contem essas informações cadastrais.
                     },
                     child: const Text('Quero fazer uma doação'),
                   ),
