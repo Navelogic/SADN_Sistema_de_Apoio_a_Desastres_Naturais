@@ -67,3 +67,7 @@ Com base nessa problemática, nosso projeto visa acelerar o processo de cataloga
 - A doação é armazenada no local até que possa ser encaminhada
 - Quando estiver pronta para ser doada, é novamente scaneada dando baixa no estoque
 - Ao mesmo tempo, há um cadastro automático que guarda todas as doações de todos os centros de distribuição. Um centro que tiver carente de alguma demanda pode pedir para outros centros. (Temos intenção de montar um contato dentro do app para isso)
+
+## PITCH
+
+[Link para o pitch](https://youtu.be/aQ8GutxM8Q0)
