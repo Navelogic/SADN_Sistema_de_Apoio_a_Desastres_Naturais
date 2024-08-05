@@ -26,6 +26,7 @@ class PontosColetaPage extends StatelessWidget {
                 const SizedBox(height: 10),
                 Center(
                   child: ElevatedButton(
+                    key: const Key("ELEVATEDBUTTON_BEAMARKER"),
                     onPressed: () {
                       /// TO-DO:
                       /// Vai para um formulário onde o estabelecimento coloca seu endereço no mapa.

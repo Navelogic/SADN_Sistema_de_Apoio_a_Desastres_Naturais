@@ -28,6 +28,7 @@ class CentroDistribuicaoPage extends StatelessWidget {
             Tooltip(
               message: 'Cadastrar uma doação no estoque',
               child: TextButton.icon(
+                key: const Key("BUTTON_SCAN_INPUT"),
                 onPressed: () {
                     /// TO-DO:
                     /// Vai para uma página que scaneia o QR-Code que foi impresso em cima da doação.
@@ -44,6 +45,7 @@ class CentroDistribuicaoPage extends StatelessWidget {
             Tooltip(
               message: 'Tirar uma doação do estoque',
               child: TextButton.icon(
+                key: const Key("BUTTON_SCAN_OUTPUT"),
                 onPressed: () {
                     /// TO-DO:
                     /// Vai para uma página que scaneia o QR-Code que foi impresso em cima da doação.
@@ -60,6 +62,7 @@ class CentroDistribuicaoPage extends StatelessWidget {
             Tooltip(
               message: 'Visão geral das doações disponíveis',
               child: TextButton.icon(
+                key: const Key("BUTTON_VIEW_STOCK"),
                 onPressed: () {
                     /// TO-DO:
                     /// Vai para uma página que lista todos os itens que estão no estoque do centro logado.
@@ -73,8 +76,9 @@ class CentroDistribuicaoPage extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             Tooltip(
-              message: 'Visão geral das doações disponíveis',
+              message: 'Busca por um item em demanda em outros centros de distribuição',
               child: TextButton.icon(
+                key: const Key("BUTTON_SEARCH_STOCK"),
                 onPressed: () {
                     /// TO-DO:
                     /// Vai para uma página que lista todos os itens que estão no estoque do centro logado.

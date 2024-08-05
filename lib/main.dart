@@ -68,14 +68,17 @@ class _MyHomePageState extends State<MyHomePage> {
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
+            key: Key("DOACAO_NAVIGATION_BUTTON"),
             icon: Icon(Icons.inventory),
             label: 'Doação',
           ),
           BottomNavigationBarItem(
+            key: Key("COLETA_NAVIGATION_BUTTON"),
             icon: Icon(Icons.local_shipping),
             label: 'Pontos de Coleta',
           ),
           BottomNavigationBarItem(
+            key: Key("CENTRO_NAVIGATION_BUTTON"),
             icon: Icon(Icons.volunteer_activism),
             label: 'Centro de Distribuição',
           ),
