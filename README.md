@@ -27,26 +27,26 @@ A recente tragédia no Rio Grande do Sul evidenciou a importância da tecnologia
 ### Relato de voluntários sobre sua experiência durante as enchentes no Rio Grande do Sul em 2023 e 2024:
 
 > "Não existiu uma organização entre as entidades públicas de gerenciar voluntários e recursos, de forma que foi totalmente organizada por organizações privadas. [...] Isso cansou muita gente e foi fonte de perda."
-<div dir="rtl"><i> - M.</i></div>
+<div dir="rtl"><i> .M -</i></div>
 
 > "Da minha esperiencia, um app que facilitasse gestão de estoque poderia ser útil. Algo q facilitasse vizualizar e atualizar o que se recebe de roupas e mantimentos"
-<div dir="rtl"><i> - A.</i></div>
+<div dir="rtl"><i> .A -</i></div>
 
 > "Aconteceu muito de haver doações que chegavam em locais que já não precisavam daque tipo de doação, criando uma situação em que sobrava doações em um local e faltava em outro."
-<div dir="rtl"><i> - W.</i></div>
+<div dir="rtl"><i> .W -</i></div>
 
 > "Haviam vários aplicativos, fora as inúmeras planilhas. O problema é que sem atualização constante, não funciona."
-<div dir="rtl"><i> - J.</i></div>
+<div dir="rtl"><i> .J -</i></div>
 
 > "A maioria dos aplicativos mais atrapalhavam do que ajudavam porque nunca eram atualizados"
-<div dir="rtl"><i> - S.</i></div>
+<div dir="rtl"><i> .S -</i></div>
 
 A falta de atualização em tempo real dos dados sobre as necessidades de cada ponto de apoio gerou caos e ineficiência na distribuição de recursos. Voluntários e doações eram direcionados para locais que já estavam abastecidos, enquanto outros permaneciam com carências críticas.
 
 Com base nessa problemática, nosso projeto visa acelerar o processo de catalogar as doações, tirando essa responsabilidade do centro de distribuição e alocando-a para o próprio doador.
 
 > "Imagine que leva 2 minutos para pré cadastrar uma doação. Se 3000 pessoas que doarem investirem esses 2 minutos, o centro de distribuição ganhou 100 horas. Imagine o impacto."
-<div dir="rtl"><i> - Watto.</i></div>
+<div dir="rtl"><i> .Watto -</i></div>
 
 ### Entidade 'Doador'
 
