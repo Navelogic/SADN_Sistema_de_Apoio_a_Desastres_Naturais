@@ -4,9 +4,7 @@ import br.com.hackathon.Model.Coleta.ColetaDTO;
 import br.com.hackathon.Service.ColetaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -19,5 +17,10 @@ public class ColetaController {
     @GetMapping
     public ResponseEntity<List<ColetaDTO>> findAll(){
         return ResponseEntity.ok(coletaService.findAll());
+    }
+
+    @DeleteMapping("/{id}")
+    public void deleteById(@PathVariable Long id) {
+        coletaService.deleteById(id);
     }
 }

@@ -20,6 +20,9 @@ public class Item {
     private Long id;
 
     private Integer quantidade;
+    private String observacao;
+    private String categoria;
+
 
     @ManyToOne
     @JoinColumn(name = "doacao_id")

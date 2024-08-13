@@ -17,7 +17,8 @@ import java.util.Set;
 @EqualsAndHashCode(of = "id")
 public class Doacao {
 
-    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @ManyToOne
@@ -26,5 +27,4 @@ public class Doacao {
 
     @OneToMany(mappedBy = "doacao", cascade = CascadeType.ALL, orphanRemoval = true)
     private Set<Item> itens = new HashSet<>();
-
 }
